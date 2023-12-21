@@ -55,16 +55,25 @@ footer {
 }
  */
 
+.navmain{
+
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+
+}
+
 
 .head{
     /* background-color:beige; */
-    width: 100%;
- height: 50px;
-    padding: 10px;
+ /* height: 50px; */
+ /* width: 100%; */
+    gap: 60px;
+    margin-left: 50px;
+    display: flex;
     align-items: center;
-position: fixed;
-background-color: white;
-    justify-content: space-evenly;
+/* position: fixed; */
+    /* justify-content: space-evenly; */
 
 /* margin-top: 1%; */
 
@@ -72,10 +81,11 @@ background-color: white;
 
 .btnhead{
 background-color: #322161;
-width: 10%px;
-padding: 10px;
-text-align: end;
-border-radius: 6px;
+width: 100px;
+padding: 8px;
+margin-left: 250px;
+
+border-radius: 7px;
 color: aliceblue;
 }
 .maincont{
@@ -91,7 +101,7 @@ margin-top: 5%;
 
 .maincont2{
     margin-top: 4%;
-    
+    flex-wrap: wrap;
     justify-content: space-evenly;
     
 }
@@ -104,16 +114,19 @@ margin-top: 7%;
     margin-top: 5%;
 }
 .stillmain{
-
-justify-content: space-around;
+word-spacing: 9px;
+font-family:Arial, Helvetica, sans-serif;
+/* justify-content: space-around; */
 margin-top: 5%;
-
+margin-left: 11%;
 }
 
-.footpara{
-    text-align: center;
+.foothead{
+    /* text-align: center; */
+    padding: 100px;
     background-color: #322161;
 color: white;
+height: 300px;
 }
 /* 
 .contmain{
@@ -151,9 +164,39 @@ margin-top: 20px;
 }
 .contactinfomain{
 margin-top: 7%;
-    margin-right: 24%;
-margin-bottom: 5%;
+gap: 20px;
+
+/* justify-content: center; */
+margin-left: 12%;
+/* margin-right: 24%; */
+margin-bottom: 7%;
+}
+.contactinfoinp{
+
+text-align: center;
+border-radius: 50px;
+border: 2px solid;
+width: 370px;
+height: 50px;
+}
+.contactinfobtn{
+padding: 10px;
+width: 70px;    
+    border-radius: 100px;
+background-color: #322161;
+color: white;
 }
 .emailpara{
     margin-left: 900px;
+}
+
+.footchild{
+    justify-content: center;
+    gap: 60px;
+ font-size: 20px;
+ align-items: center;
+    /* margin-left: 100px; */
+}
+.footchild2{
+    margin-top: 50px;
 }
